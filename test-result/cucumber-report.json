@@ -1,0 +1,49 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "api-testing;perform-delete-operation",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "perform Delete operation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "I send a delete request",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "The response status code of delete should be 204",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 51
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "api-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "API Testing",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\APITest.feature"
+  }
+]
